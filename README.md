@@ -1,5 +1,9 @@
 # typescript-sdk-starter
 
+说明：本项目基于[https://github.com/nekobc1998923/typescript-sdk-starter](https://github.com/nekobc1998923/typescript-sdk-starter)改造而成。
+
+https://github.com/Yakima-Teng/typescript-sdk-starter.git
+
 > 一套无需额外配置的 TypeScript SDK 前端开发模板，能够帮助开发者快速搭建自己的规范工程环境
 
 
@@ -24,7 +28,7 @@
 ### 获取项目
 
 ```
-git clone https://github.com/nekobc1998923/typescript-sdk-starter.git
+git clone https://github.com/Yakima-Teng/typescript-sdk-starter.git
 ```
 
 ### 安装依赖
@@ -51,4 +55,4 @@ npm run build
 
 ## 许可
 
-MIT Copyright © 2021 nekobc1998923
+MIT。

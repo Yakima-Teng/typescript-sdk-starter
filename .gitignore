@@ -1,6 +1,5 @@
 # npm包
 /node_modules
-package-lock.json
 
 # build产物
 dist
@@ -17,3 +16,6 @@ dist
 
 # temp
 .temp
+
+# ignore folder for IDE: IDEA
+/.idea

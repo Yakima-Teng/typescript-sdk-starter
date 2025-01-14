@@ -1,5 +1,8 @@
-const { resolve, PROJECT_PATH } = require('./constants');
 const WebpackBar = require('webpackbar');
+const { toCamelCase } = require('./utils')
+const { resolve, PROJECT_PATH, pkg } = require('./constants');
+
+const pkgName = pkg.name
 
 module.exports = {
   // 定义了入口文件路径
@@ -9,9 +12,9 @@ module.exports = {
   // 定义了编译打包之后的文件名以及所在路径。还有打包的模块类型
   output: {
     // 打包后的产物名
-    filename: 'typescript-sdk-starter.js',
-    // 在全局变量中增加一个 libraryStarter 变量
-    library: 'libraryStarter',
+    filename: `${pkgName}.js`,
+    // 在全局变量中增加一个全局变量用于访问SDK，如 window.TypescriptSdkStarter
+    library: toCamelCase(pkgName),
     // 打包成umd模块
     libraryTarget: 'umd',
     // libraryExport这个属性需要设置，否则导出后，外层会包有一层default

@@ -9,7 +9,7 @@ actions:
     link: /guide/
     type: primary
   - text: Github地址
-    link: https://github.com/nekobc1998923/typescript-sdk-starter
+    link: https://github.com/Yakima-Teng/typescript-sdk-starter
     type: secondary
 
 # 配置首页特效列表

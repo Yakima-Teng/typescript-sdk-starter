@@ -13,7 +13,7 @@ module.exports = {
   output: {
     clean: true,
     // 打包后的产物名
-    filename: `${pkgName}.min.js`,
+    filename: `${pkgName}.js`,
     // 在全局变量中增加一个全局变量用于访问SDK，如 window.TypescriptSdkStarter
     library: toCamelCase(pkgName),
     // 打包成umd模块

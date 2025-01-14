@@ -1,7 +1,7 @@
 const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const common = require('./webpack.common.js');
 const { resolve, PROJECT_PATH } = require('./constants');
 
 module.exports = merge(common, {

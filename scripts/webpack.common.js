@@ -1,8 +1,8 @@
 const WebpackBar = require('webpackbar');
-const { toCamelCase } = require('./utils')
+const { toCamelCase } = require('./utils');
 const { resolve, PROJECT_PATH, pkg } = require('./constants');
 
-const pkgName = pkg.name
+const pkgName = pkg.name;
 
 module.exports = {
   // 定义了入口文件路径

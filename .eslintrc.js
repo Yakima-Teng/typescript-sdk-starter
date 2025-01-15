@@ -30,6 +30,9 @@ module.exports = {
       rules: {
         'import/no-unresolved': 'off',
         'import/extensions': 'off',
+        'import/prefer-default-export': 'off',
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"]
       },
     }
   ]
